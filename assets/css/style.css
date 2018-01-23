@@ -1,0 +1,193 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    background-image: url("../images/background.png");
+    position: relative;
+}
+
+.entirecontent {
+    margin: auto;
+    width: 960px;
+    min-height: 100%;
+}
+
+#header {
+    position: static;
+    top: 0;
+    background-color: #ffffff;
+    width: 100%;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    border-bottom: #cccccc 2px solid;
+}
+
+
+#name {
+    float: left;
+    margin: auto;
+    padding: 20px;
+    background-color: #4aaaa5;
+    color: white;
+    height: 73px;
+    width: 200px;
+    font-family: 'Georgia', Times, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+#profilephoto {
+    margin: 15px;
+    float: left;
+    height:233px;
+    width:200px;
+}
+
+p {
+    margin: 15px;
+    padding-top: 10px;
+}
+
+.text {
+    margin: 15px;
+    padding-top: 10px;
+}
+
+label {
+    margin: 15px;
+    padding-top: 10px;
+    color: gray;
+}
+
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.links {
+    margin: 17px;
+    color: darkgrey;
+    padding: 10px;
+    float: right;
+}
+
+#connect {
+    color: #4aaaa5;
+    margin-top: 75px;
+    float: right;
+    width: 250px;
+    height: 250px;
+    background: white;
+    text-align: center;
+    border: 5px solid #dddddd;
+    vertical-align: bottom;
+}
+
+#footer {
+    clear: both;
+    position: relative;
+    background-color: #666666;
+    padding: 15px;
+    color: white;
+    border-top: solid;
+    border-color: #4aaaa5;
+    border-top-width: 5px;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 80%;
+}
+
+a:link {
+    text-decoration: none;
+    color: darkgrey;
+}
+
+a:visited {
+    color: darkgrey;
+}
+
+#underline {
+    padding-bottom: 15px;
+    margin: 15px;
+    border-bottom: solid 2px gainsboro;
+    color: #4aaaa5;
+}
+
+#box {
+    min-height: 100%;
+    color: darkgrey;
+    padding: 15px;
+    border: 5px solid #dddddd;
+    width: 600px;
+    background-color: white;
+    float: left;
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+
+.image {
+    position: relative;
+    width: 250px;
+    height: 188px;
+    float: left;
+    margin: 15px;
+    margin-bottom: 30px;
+}
+
+.imagetext {
+    position: absolute;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 10px;
+    top: 60%;
+    width: 100%;
+    text-align: center;
+}
+
+::placeholder{
+    color: lightgray;
+}
+#entername {
+    width: 500px;
+    margin-left: 15px;
+    margin-top: 5px;
+    padding: 5px;
+    border: 1px solid lightgray;
+    color: gray;
+}
+
+#email {
+    width: 500px;
+    margin-left: 15px;
+    margin-top: 5px;
+    padding: 5px;
+    border: 1px solid lightgray;
+    color: gray;
+}
+
+#message {
+    width: 500px;
+    height: 200px; 
+    border: 1px solid lightgray; 
+    padding: 5px; 
+    margin-left: 15px;
+    margin-top: 5px;
+    color: gray;
+    text-align: left;
+}
+
+#submit {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 10px;
+    width: 100px;
+    border: none;
+    margin: 15px;
+}
